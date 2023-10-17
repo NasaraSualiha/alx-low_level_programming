@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (m = 49; m <= 57; m++)
 		{
-			if (n != m)
+			if (n < m)
 			{
 				putchar(n);
 				putchar(m);
@@ -24,7 +24,7 @@ int main(void)
 				putchar(' ');
 			}
 			}
-		 }
+		}
 	}
 	putchar('\n');
 	return (0);
